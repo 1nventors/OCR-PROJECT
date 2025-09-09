@@ -1,4 +1,4 @@
-# OCR Text Recognition App 📝🔍  
+# OCR Text Recognition App 📝🔍  (WORKING ON)
 
 The goal was to build an application that allows users to **recognize text from images** using **OCR (Optical Character Recognition)** powered by **Tesseract** and **OpenCV**.  
 It supports multiple languages and can be applied to documents, license plates, or general images containing text.  
