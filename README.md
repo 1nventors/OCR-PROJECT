@@ -1,23 +1,30 @@
-# 📖 OCR License Plate Recognition  
+# OCR Text Recognition App 📝🔍  
 
-This project is a simple **Optical Character Recognition (OCR)** application using **pytesseract** and **OpenCV**.  
-It detects and extracts text from images, such as license plates, after preprocessing steps.  
-
----
-
-<h3>⚙️ Features</h3>
-
-- Image preprocessing: grayscale, thresholding, filtering and blurring  
-- Contour detection and bounding box for regions of interest  
-- Cropping and resizing detected areas for better OCR results  
-- Text recognition with `pytesseract` (multi-language support available)  
+The goal was to build an application that allows users to **recognize text from images** using **OCR (Optical Character Recognition)** powered by **Tesseract** and **OpenCV**.  
+It supports multiple languages and can be applied to documents, license plates, or general images containing text.  
 
 ---
 
-<h3>📦 Technologies Used</h3>
+## 📌 Features  
 
-- Python  
-- OpenCV  
-- pytesseract  
-- Pillow  
-- NumPy  
+- **Preprocessing of images** for better OCR results:  
+  - Grayscale conversion  
+  - Thresholding  
+  - Filtering and blurring  
+  - Contour detection with bounding boxes  
+- **Text recognition** with `pytesseract`.  
+- **Language support**: English (`eng`), Portuguese (`por`), Simplified Chinese (`chi_sim`).  
+- Works with different types of input images:  
+  - License plates  
+  - Documents  
+  - General text images  
+
+---
+
+## 🛠️ Technologies Used  
+
+- **Python** (main language)  
+- **OpenCV** (image processing)  
+- **pytesseract / Tesseract OCR** (optical character recognition)  
+- **Pillow** (image handling)  
+- **NumPy** (matrix and array operations)  
